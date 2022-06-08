@@ -37,6 +37,8 @@ With initial models being RandomForest and ExtraTrees, they produced a very accu
 Modelling with XGBoostClassifier generated even more accurate (97%+) results and I decided to move ahead with it.
 
 I tried many many different models including deep learning models implemented in PyTorch (TabNet) and purely sequential CNNs implemented in Keras. They generated great results but the training time was very high compared to the machine learning models (3-4 minutes with deep learning models and 3-5 seconds for machine learning models)
+My approaches can be found in this [Colab notebook](https://colab.research.google.com/github/pj-mathematician/Crowd-for-Good---Cancer-ML-Benchmarking-Challenge/blob/main/c4g_1_1.ipynb) (Disclaimer, its RAW without any documentation) 
+
 
 After training various models, I plotted feature importance plots and decided to filter the features accordingly. 
 ![](https://i.imgur.com/24hpamN.png)
