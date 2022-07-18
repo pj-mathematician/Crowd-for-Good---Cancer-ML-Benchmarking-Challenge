@@ -26,7 +26,6 @@ All the models were yielding 98% + accuracy with some tuning, so I went ahead wi
 ![](https://raw.githubusercontent.com/pj-mathematician/Crowd-for-Good---Cancer-ML-Benchmarking-Challenge/ed6863c08d3d4a139f5684fb7c3daac977e8d524/images/image.png)
 
 The training dataset had an unequal distribution of the 1 and 0 labels so I used Stratified KFold to generate train test sets with similar distribution of labels from the training data, and used them throughout this project to evaluate different models.
-
 Plotted a correlation plot and found that the features are present in clusters with respect to each other. 
 ![](https://github.com/pj-mathematician/Crowd-for-Good---Cancer-ML-Benchmarking-Challenge/blob/main/images/image.png?raw=true)
 These clusters suggested that RandomForestClassification or ExtraTreesClassification will work the best for this. 
